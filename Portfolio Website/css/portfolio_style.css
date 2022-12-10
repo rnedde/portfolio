@@ -1,0 +1,210 @@
+:root{
+			
+			--bs-font-sans-serif: obliqua, sans-serif;
+			--bs-body-font-family: var(--bs-font-sans-serif);
+			--bs-black: #2b193d;
+			--bs-blue: #2c365e;
+			--bs-violet: #484d6d;
+			--bs-lav: #4b8f8c;
+			--bs-silver: #c5979d;
+			--bs-white: #FFFFFF;
+		}
+		html{
+			font-size: calc(15px + 0.390625vw);
+		}
+		.showRow {
+			height: 200px; 
+		}
+		.imgSize {
+			width: 100%;
+			height: 250px;
+			object-fit: cover;
+		}
+		.work-image{
+			width: 100%;
+			height: auto;
+		}
+		/*setting color palette*/
+		.bg-black {
+			background-color:var(--bs-black);
+		}
+		.bg-blue {
+			background-color:var(--bs-blue);
+		}
+		.bg-violet {
+			background-color:var(--bs-violet);
+		}
+		.bg-lav {
+			background-color:var(--bs-lav);
+		}
+		.bg-silver {
+			background-color:var(--bs-silver);
+		}
+		.bg-white {
+			background-color:var(--bs-white);
+		}
+		
+		/* OVERRIDING BOOTSTRAP */
+		.btn-primary {
+			font-family: var(--bs-font-sans-serif);
+			background-color: var(--bs-lav);
+			border-color: var(--bs-blue);
+			font-weight: 200;
+			color: var(--bs-black);
+			padding: .5rem;
+			padding-left: 2rem;
+			padding-right: 2rem;
+			margin: 1rem;
+			border-radius: 0;
+		}
+		.btn-primary:hover {
+			background-color: var(--bs-black);
+			font-weight: 200;
+			border-color: inherit;
+			color: var(--bs-white);
+		}
+
+		.btn-secondary {
+			background-color: var(--bs-lav);
+			border-color: var(--bs-pink-dark);
+			color: var(--bs-teal);
+			padding: .5rem;
+			margin: 1rem;
+		}	
+		.btn-secondary:hover {
+			background-color: var(--bs-pink-hover);
+			border-color: var(--bs-pink-dark);
+			color: var(--bs-teal);
+		}
+
+		a{
+			color: inherit;
+			text-decoration: inherit;
+		}
+		a:hover{
+			color: inherit; 
+			text-decoration: inherit;
+		}
+
+		.link-primary{
+			text-decoration: none;
+			font-weight: 400;
+			color: var(--bs-pink);
+		}
+		.link-primary:hover{
+			color: var(--bs-teal-dark);
+		}
+
+		.identity-text{
+			color: var(--bs-silver);
+		}
+		.art-title{
+			color: var(--bs-black);
+			text-align:center;
+			margin-top: 1rem;
+			margin-bottom: 0;
+		}
+		.year-text{
+			color: var(--bs-lav);
+			text-align:center;
+			margin-bottom:1rem;
+		}
+		.navbar-color{
+			background-color: var(--bs-blue);
+		}
+		.navbar-nav {
+			margin-center: auto;
+			--bs-navbar-active-color: var(--bs-violet);
+			--bs-navbar-color: var(--bs-lav);
+			--bs-navbar-nav-link-padding-x: 1rem;
+			font-size: 1.3rem;
+		}
+		.navbar-toggler{
+			--bs-navbar-toggler-border-radius: 0rem;
+			--bs-navbar-toggler-focus-width: 0.1rem;
+		}
+		.nav-link:hover{
+			color: var(--bs-blue);
+			background-color: var(--bs-lav);
+		}
+		.card {
+			--bs-card-border-radius: 0rem;
+			--bs-card-border-color: rgba(0,0,0,0);
+			--bs-card-inner-border-radius: 0;
+			background-color: var(--bs-silver);
+			color: var(--bs-blue);
+			margin-top: 1rem;
+			text-align:center;
+		}
+		.card:hover{
+			background-color: var(--bs-lav);
+		}
+		.card-text{
+			padding:.3rem;
+			font-size: 1rem;
+		}
+		.title-text{
+			padding-top: .6rem;
+			padding-bottom: 1.2rem;
+			line-height: .2rem;
+		}
+		.social-color{
+			background-color:var(--bs-blue);
+			margin: auto;
+			padding: .3rem;
+			margin-bottom: 1rem;
+		}
+		.social-link{
+			font-family: var(--bs-font-sans-serif);
+			font-weight: 200;
+			color: var(--bs-silver);
+			padding: .2rem;
+			margin: 1rem;
+			text-align: center;
+		}
+		.social-link:hover{
+			background-color:#c5979d;
+			color: var(--bs-blue)
+		}
+		.nav-links-color{
+			background-color: var(--bs-silver);
+			margin: auto;
+			margin-bottom: 1rem;
+			padding: .3rem;
+			color: var(--bs-lav);
+		}
+		.bio-photo{
+			object-fit:cover;
+			max-width: 100%;
+			height: auto;
+			padding: 2rem;
+		}
+
+		.nav-links{
+			font-family: var(--bs-font-sans-serif);
+			font-weight: 200;
+			color: var(--bs-violet);
+			padding: .5rem;
+			margin: 1rem;
+			text-align: center;
+		}
+		.nav-links:hover{
+			color: var(--bs-silver);
+			background-color: var(--bs-blue);
+		}
+		.form-control{
+			background-color: var(--bs-silver);
+			border-color: var(--bs-silver);
+		}
+		.display-6 {
+			font-size: 1.5rem;
+			font-weight: 200;
+			font-style: italic;
+		}
+		h1, h2, h3, h4{
+			font-family: monarcha, serif;
+		}
+		p{
+			font-style: normal;
+			font-size: 1.2rem;
+		}
